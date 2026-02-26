@@ -402,7 +402,7 @@ def main():
     font2 = pygame.font.Font(None, 140) # 文字のフォントと大きさ
     font3 = pygame.font.Font(None, 190) # 文字のフォントと大きさ
     pygame.mixer.music.load('./sound/bgm.wav')
-    time_limit=40 #制限時間
+    time_limit=30 #制限時間
 
     while True:
         for event in pygame.event.get():  
